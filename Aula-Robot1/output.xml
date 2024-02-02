@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240118 16:56:53.146" rpa="false" schemaversion="4">
+<suite id="s1" name="Modelo" source="C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\Aula-Robot1\modelo.robot">
+<test id="s1-t1" name="Cenário 1: Acessando o site do Robot" line="12">
+<kw name="Abrir Site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://robotframework.org/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240118 16:56:53.589" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org/'.</msg>
+<msg timestamp="20240118 16:56:57.482" level="WARN">The chromedriver version (84.0.4147.30) detected in PATH at C:\Users\CODE-PRO-19\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20240118 16:57:01.760" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20240118 16:57:01.761" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 84
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008A87E3+2852835]
+	Ordinal0 [0x00795BB1+1727409]
+	Ordinal0 [0x0066E4B9+517305]
+	Ordinal0 [0x00600BA0+68512]
+	Ordinal0 [0x005FD3A0+54176]
+	Ordinal0 [0x0061D9F7+186871]
+	Ordinal0 [0x0061D7FD+186365]
+	Ordinal0 [0x0061B70B+177931]
+	Ordinal0 [0x00602584+75140]
+	Ordinal0 [0x00603650+79440]
+	Ordinal0 [0x006035E9+79337]
+	Ordinal0 [0x007AAD5C+1813852]
+	GetHandleVerifier [0x009CC616+1075574]
+	GetHandleVerifier [0x009CC367+1074887]
+	GetHandleVerifier [0x009D7497+1120247]
+	GetHandleVerifier [0x009CCC16+1077110]
+	Ordinal0 [0x007A3206+1782278]
+	Ordinal0 [0x007AC3BB+1819579]
+	Ordinal0 [0x007AC523+1819939]
+	Ordinal0 [0x007C2B45+1911621]
+	BaseThreadInitThunk [0x7592FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77207C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77207C3E+238]
+</msg>
+<status status="FAIL" starttime="20240118 16:56:53.588" endtime="20240118 16:57:01.800"/>
+</kw>
+<status status="FAIL" starttime="20240118 16:56:53.588" endtime="20240118 16:57:01.801"/>
+</kw>
+<status status="FAIL" starttime="20240118 16:56:53.586" endtime="20240118 16:57:01.803">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 84
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008A87E3+2852835]
+	Ordinal0 [0x00795BB1+1727409]
+	Ordinal0 [0x0066E4B9+517305]
+	Ordinal0 [0x00600BA0+68512]
+	Ordinal0 [0x005FD3A0+54176]
+	Ordinal0 [0x0061D9F7+186871]
+	Ordinal0 [0x0061D7FD+186365]
+	Ordinal0 [0x0061B70B+177931]
+	Ordinal0 [0x00602584+75140]
+	Ordinal0 [0x00603650+79440]
+	Ordinal0 [0x006035E9+79337]
+	Ordinal0 [0x007AAD5C+1813852]
+	GetHandleVerifier [0x009CC616+1075574]
+	GetHandleVerifier [0x009CC367+1074887]
+	GetHandleVerifier [0x009D7497+1120247]
+	GetHandleVerifier [0x009CCC16+1077110]
+	Ordinal0 [0x007A3206+1782278]
+	Ordinal0 [0x007AC3BB+1819579]
+	Ordinal0 [0x007AC523+1819939]
+	Ordinal0 [0x007C2B45+1911621]
+	BaseThreadInitThunk [0x7592FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77207C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77207C3E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20240118 16:56:53.153" endtime="20240118 16:57:01.809"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Modelo">Modelo</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240118 16:56:57.482" level="WARN">The chromedriver version (84.0.4147.30) detected in PATH at C:\Users\CODE-PRO-19\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.131); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240201 14:54:04.965" rpa="false" schemaversion="4">
+<suite id="s1" name="Tc01" source="C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Tests\Voo\tc01.robot">
+<test id="s1-t1" name="TC01 - Reservando passagem de destinos dentro dos EUA na classe econômica" line="7">
+<kw name="Dado que eu acesse o php travels" library="Login_Steps">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240201 14:54:06.805" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<msg timestamp="20240201 14:54:09.132" level="WARN">The chromedriver version (84.0.4147.30) detected in PATH at C:\Users\CODE-PRO-19\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (121.0.6167.86); currently, chromedriver 121.0.6167.85 is recommended for chrome 121.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20240201 14:54:13.680" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20240201 14:54:13.680" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 84
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x006587E3+2852835]
+	Ordinal0 [0x00545BB1+1727409]
+	Ordinal0 [0x0041E4B9+517305]
+	Ordinal0 [0x003B0BA0+68512]
+	Ordinal0 [0x003AD3A0+54176]
+	Ordinal0 [0x003CD9F7+186871]
+	Ordinal0 [0x003CD7FD+186365]
+	Ordinal0 [0x003CB70B+177931]
+	Ordinal0 [0x003B2584+75140]
+	Ordinal0 [0x003B3650+79440]
+	Ordinal0 [0x003B35E9+79337]
+	Ordinal0 [0x0055AD5C+1813852]
+	GetHandleVerifier [0x0077C616+1075574]
+	GetHandleVerifier [0x0077C367+1074887]
+	GetHandleVerifier [0x00787497+1120247]
+	GetHandleVerifier [0x0077CC16+1077110]
+	Ordinal0 [0x00553206+1782278]
+	Ordinal0 [0x0055C3BB+1819579]
+	Ordinal0 [0x0055C523+1819939]
+	Ordinal0 [0x00572B45+1911621]
+	BaseThreadInitThunk [0x7691FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+</msg>
+<status status="FAIL" starttime="20240201 14:54:06.805" endtime="20240201 14:54:13.705"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20240201 14:54:13.705" endtime="20240201 14:54:13.705"/>
+</kw>
+<status status="FAIL" starttime="20240201 14:54:06.805" endtime="20240201 14:54:13.705"/>
+</kw>
+<kw name="E realize o cadastro" library="Login_Steps">
+<status status="NOT RUN" starttime="20240201 14:54:13.706" endtime="20240201 14:54:13.706"/>
+</kw>
+<kw name="E faça o Login" library="Login_Steps">
+<status status="NOT RUN" starttime="20240201 14:54:13.706" endtime="20240201 14:54:13.706"/>
+</kw>
+<kw name="Quando eu realizo uma busca de um vôo ida e volta">
+<status status="NOT RUN" starttime="20240201 14:54:13.710" endtime="20240201 14:54:13.710"/>
+</kw>
+<kw name="E saindo de Los Angeles EUA">
+<status status="NOT RUN" starttime="20240201 14:54:13.714" endtime="20240201 14:54:13.714"/>
+</kw>
+<kw name="E fecho o navegador" library="Login_Steps">
+<status status="NOT RUN" starttime="20240201 14:54:13.714" endtime="20240201 14:54:13.714"/>
+</kw>
+<status status="FAIL" starttime="20240201 14:54:06.804" endtime="20240201 14:54:13.714">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 84
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x006587E3+2852835]
+	Ordinal0 [0x00545BB1+1727409]
+	Ordinal0 [0x0041E4B9+517305]
+	Ordinal0 [0x003B0BA0+68512]
+	Ordinal0 [0x003AD3A0+54176]
+	Ordinal0 [0x003CD9F7+186871]
+	Ordinal0 [0x003CD7FD+186365]
+	Ordinal0 [0x003CB70B+177931]
+	Ordinal0 [0x003B2584+75140]
+	Ordinal0 [0x003B3650+79440]
+	Ordinal0 [0x003B35E9+79337]
+	Ordinal0 [0x0055AD5C+1813852]
+	GetHandleVerifier [0x0077C616+1075574]
+	GetHandleVerifier [0x0077C367+1074887]
+	GetHandleVerifier [0x00787497+1120247]
+	GetHandleVerifier [0x0077CC16+1077110]
+	Ordinal0 [0x00553206+1782278]
+	Ordinal0 [0x0055C3BB+1819579]
+	Ordinal0 [0x0055C523+1819939]
+	Ordinal0 [0x00572B45+1911621]
+	BaseThreadInitThunk [0x7691FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77747C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747C3E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20240201 14:54:04.969" endtime="20240201 14:54:13.718"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tc01">Tc01</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240201 14:54:06.786" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 7: Setting variable '... Input_PrimeiroNome=//input[@placeholder="First Name"]' failed: Invalid variable name '... Input_PrimeiroNome=//input[@placeholder="First Name"]'.</msg>
+<msg timestamp="20240201 14:54:06.787" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 8: Setting variable '... Input_UltimoNome=//input[@placeholder="Last Name"]' failed: Invalid variable name '... Input_UltimoNome=//input[@placeholder="Last Name"]'.</msg>
+<msg timestamp="20240201 14:54:06.788" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 9: Setting variable '... Input_Telefone=//input[@placeholder="Phone"]' failed: Invalid variable name '... Input_Telefone=//input[@placeholder="Phone"]'.</msg>
+<msg timestamp="20240201 14:54:06.789" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 10: Setting variable '... Input_Email=//input[@placeholder="Email"]' failed: Invalid variable name '... Input_Email=//input[@placeholder="Email"]'.</msg>
+<msg timestamp="20240201 14:54:06.790" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 11: Setting variable '... Input_Senha=//input[@placeholder="Password"]' failed: Invalid variable name '... Input_Senha=//input[@placeholder="Password"]'.</msg>
+<msg timestamp="20240201 14:54:06.790" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 12: Setting variable '... Button_Signup=//button[@class="btn btn-default btn-lg btn-block effect ladda-button waves-effect"]' failed: Invalid variable name '... Button_Signup=//button[@class="btn btn-default btn-lg btn-block effect ladda-button waves-effect"]'.</msg>
+<msg timestamp="20240201 14:54:06.791" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 13: Setting variable '... Button_Cookie=//button[@id="cookie_stop"]' failed: Invalid variable name '... Button_Cookie=//button[@id="cookie_stop"]'.</msg>
+<msg timestamp="20240201 14:54:06.792" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 16: Setting variable '... Input_EmailLogin=//input[@placeholder="Email"]' failed: Invalid variable name '... Input_EmailLogin=//input[@placeholder="Email"]'.</msg>
+<msg timestamp="20240201 14:54:06.792" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 17: Setting variable '... Input_SenhaLogin=//input[@placeholder="Password"]' failed: Invalid variable name '... Input_SenhaLogin=//input[@placeholder="Password"]'.</msg>
+<msg timestamp="20240201 14:54:06.793" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 18: Setting variable '... Button_Logar=//span[contains(text(),"Login")]' failed: Invalid variable name '... Button_Logar=//span[contains(text(),"Login")]'.</msg>
+<msg timestamp="20240201 14:54:06.794" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Login\Login_Elements.resource' on line 19: Setting variable '... A_OpcaoLogin=(//a[@href="https://www.phptravels.net/login"])[2]' failed: Invalid variable name '... A_OpcaoLogin=(//a[@href="https://www.phptravels.net/login"])[2]'.</msg>
+<msg timestamp="20240201 14:54:06.800" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Home\Home_Elements.resource' on line 5: Setting variable '... A_Signup=//a[@href="https://www.phptravels.net/signup"]' failed: Invalid variable name '... A_Signup=//a[@href="https://www.phptravels.net/signup"]'.</msg>
+<msg timestamp="20240201 14:54:06.802" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Home\Home_Elements.resource' on line 6: Setting variable '... a_voos=//a[contains(text(),"flights")]' failed: Invalid variable name '... a_voos=//a[contains(text(),"flights")]'.</msg>
+<msg timestamp="20240201 14:54:06.802" level="ERROR">Error in file 'C:\Users\CODE-PRO-19\Documents\Estudos_Nathalia\Robot_Framework\PHPTRAVELS\Elements\Home\Home_Elements.resource' on line 7: Setting variable '... A_Visto=//a[@href="https://www.phptravels.net/visa"]' failed: Invalid variable name '... A_Visto=//a[@href="https://www.phptravels.net/visa"]'.</msg>
+<msg timestamp="20240201 14:54:09.132" level="WARN">The chromedriver version (84.0.4147.30) detected in PATH at C:\Users\CODE-PRO-19\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (121.0.6167.86); currently, chromedriver 121.0.6167.85 is recommended for chrome 121.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

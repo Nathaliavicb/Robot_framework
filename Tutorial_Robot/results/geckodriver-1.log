@@ -1,0 +1,37 @@
+1706030949560	geckodriver	INFO	Listening on 127.0.0.1:56660
+1706030952676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\CODE-P~1\\AppData\\Local\\Temp\\rust_mozprofiletiDYHt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706030953546	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706030953796	Marionette	INFO	Listening on port 56669
+Read port: 56669
+WebDriver BiDi listening on ws://127.0.0.1:56661
+1706030953884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56661/devtools/browser/5c19212f-599e-4d37-9fba-1fa0a332d4d8
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 7591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 6040, MediaDecoderStateMachine #1] WARNING: 218cb36a020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:324
+1706030966383	Marionette	INFO	Stopped listening on port 56669
+JavaScript warning: https://www.youtube.com/s/desktop/d84e1538/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js, line 96: Script terminated by timeout at:
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/d84e1538/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:152
+
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.google.com/js/th/UyQhPWNsNa0oRkd8oSQlA6PkpWpORMW0CLBRczdusu0.js line 2 > eval, line 598: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/s/player/b31b88f2/player_ias.vflset/pt_BR/base.js, line 8139: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/s/player/b31b88f2/player_ias.vflset/pt_BR/base.js, line 8139: TypeError: can't access dead object
+JavaScript error: , line 0: uncaught exception: Error: PlayerProxy error in method call
+JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
